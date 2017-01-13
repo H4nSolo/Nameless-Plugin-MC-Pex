@@ -1,0 +1,96 @@
+Pex Modul Concept
+
+Site Hirachie:
+
+=> Home:
+=> Pex Groups
+   => Group Add
+   => Group Edit
+=> Pex User
+=> Pex Settings
+   => Pex MysSQL
+   => Pex Websend
+   
+   
+   
+Site Content:
+
+=> Home:
+
+   - Statistic (UserCounter listed in Pex)
+   - Groups (Group Counter)
+   
+   - Modul Version
+   - Copyright Informationen
+   
+   
+=> Pex Groups
+
+   - Detail Listing of Groups (Rank Level, Groupname, Number of users in the group) (Links: Edit Group, Delete Group)
+   - Dropdownmenu for quick list Permissions
+   
+
+=> Pex Group Add
+
+   - [Input] Gruppenname
+   - [Input] Preffix
+   - [Input] Suffix
+   - [Input] Ranklevel
+   - [Checkbox] Default Group
+   
+
+=> Pex Group Edit:
+
+   -> Group Generell Settings:
+      - [Input] Groupname
+      - [Input] Preffix
+      - [Input] Suffix
+      - [Input] Rank level
+      - [Checkbox] Default Group
+	  
+   -> Group Permissions:
+      - Listing available Permissions for this Group
+	  - [Input] Permissions
+	  - [Input] World define
+
+
+=> Pex User:
+
+   - Detail Listing of User (Group, Playername, last Onlinetime) (Links: Edit Player)
+   - Dropdownmenu for quick list Permissions
+   
+   
+=> Pex User Edit:
+
+   -> User Details:
+      - [Input] Username
+      - [Input] Uuid
+      - [Select] Groupchange
+	  - [Input] Prefix
+	  - [Input] Suffix
+	  
+   -> User Permissions:
+      - Listing available Permissions for this User
+	  - [Input] Permissions
+	  - [Input] World define
+	  
+	  
+=> Pex Settings:
+
+   -> Pex Generell Settings:
+      - Database Online Check
+	  - Websend enable
+
+   -> Pex Database:
+      - [Input] Database Adress
+	  - [Input] Database Port
+	  - [Input] Database Username
+	  - [Input] Database Password
+	  - [Input] Database DB Name
+	  - [Input] Database DB Prefix
+	  
+   -> Websend Settings:
+      - [Input] Websend IP
+	  - [Input] Websend Port
+	  - [Input] Websend Password
+	  
