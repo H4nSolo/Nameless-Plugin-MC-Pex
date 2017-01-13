@@ -99,4 +99,5 @@ Bitte beachten:
 Ich glaube nicht das ich es schaffen werden noch eine Pre Version des Moduls vor Weihnachten freizugeben.
 Ihr habt aber jederzeit die möglichkeit vorschläge zu machen die ich versuchen kann mit einzubauen.
 
-Pex Main Site 
+
+Forum Thread: https://namelessmc.com/forum/view_topic/?tid=248
